@@ -195,7 +195,6 @@ function init() {
 
     // add some controls to orbit the camera
     controls = new OrbitControls(camera, renderer.domElement)
-    controls.autoRotate ; true
 
 
     // add a directional light
